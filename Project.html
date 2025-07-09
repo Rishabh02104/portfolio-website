@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishavendra Sharma - Software Engineer & Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Project.css">
+    <script src="Project.js"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header id="header" class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-30 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-gray-900">Rishavendra Sharma</a>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">About</a>
+                <a href="#skills" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Skills</a>
+                <a href="#projects" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Projects</a>
+                <a href="#resume" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Resume</a>
+                <a href="#contact" class="nav-link text-gray-600 hover:text-blue-600 transition-colors">Contact</a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden text-gray-800 focus:outline-none">
+                <span class="text-2xl">&#9776;</span>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="#about" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">About</a>
+            <a href="#skills" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Skills</a>
+            <a href="#projects" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Projects</a>
+            <a href="#resume" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Resume</a>
+            <a href="#contact" class="block text-center py-2 px-4 text-sm text-gray-700 hover:bg-gray-100">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="container mx-auto px-6 py-20 md:py-32">
+            <div class="flex flex-col-reverse lg:flex-row items-center justify-center gap-12">
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <h1 class="text-4xl md:text-6xl font-bold text-gray-900 leading-tight mb-4">Rishavendra Sharma</h1>
+                    <p class="text-xl md:text-2xl text-gray-700 mb-8">Aspiring Software Engineer specializing in Web Development.</p>
+                    <div class="flex justify-center lg:justify-start gap-4">
+                        <a href="#projects" class="btn-primary text-white font-bold py-3 px-8 rounded-full">View My Work</a>
+                        <a href="#resume" class="btn-outline-secondary font-bold py-3 px-8 rounded-full">See My Resume</a>
+                    </div>
+                </div>
+                <div class="lg:w-1/3">
+                    <img src="Profile photo.png" class="rounded-full shadow-2xl mx-auto" alt="Professional headshot of Rishavendra Sharma">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-white">
+            <div class="container mx-auto px-6 text-center max-w-4xl">
+                <h2 class="section-title">About Me</h2>
+                <p class="text-lg text-gray-600 leading-relaxed mb-8">
+                    Motivated and enthusiastic fresher with a strong foundation in HTML, CSS, and Python, complemented by a basic understanding of JavaScript. Adept at combining technical skills with excellent communication abilities to collaborate effectively and deliver results. Eager to apply my knowledge and passion for technology in a challenging internship role, contributing to innovative projects while gaining hands-on industry experience.
+                </p>
+                <h3 class="font-bold text-xl mb-4 text-gray-800">Interests</h3>
+                <ul class="list-disc list-inside text-lg text-gray-600 space-y-2 max-w-md mx-auto text-left">
+                    <li>Web development and exploring new technologies.</li>
+                    <li>Building small-scale Python tools for practical use.</li>
+                    <li>Reading tech articles, engaging in creative projects.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="skills" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">My Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3">Programming Languages</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>Python (for scripting, automation, and project development)</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3">Web Technologies</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>HTML & CSS (Proficient in responsive web designs)</li>
+                            <li>JavaScript (Basic knowledge for adding interactivity to web pages)</li>
+                            <li>Bootstrap 5</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3">Tools & Platforms</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>VS Code</li>
+                            <li>Git & GitHub</li>
+                            <li>Browser Developer Tools</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                        <h3 class="font-bold text-xl mb-3">Languages</h3>
+                        <ul class="text-gray-600 space-y-2">
+                            <li>English (Fluent)</li>
+                            <li>Hindi (Fluent)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group">
+                        <img src="Portfolio Project.png" class="w-full h-48 object-cover group-hover:scale-105 transition-transform" alt="Screenshot of this portfolio website project">
+                        <div class="p-6">
+                            <h3 class="font-bold text-xl mb-2">Personal Portfolio Website</h3>
+                            <p class="text-gray-600 mb-4">This very website, showcasing my foundational and growing skills in web development.</p>
+                            <button onclick="openModal('portfolioProject')" class="btn-primary text-white font-semibold py-2 px-4 rounded-full w-full">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="py-24">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="section-title">My Journey</h2>
+                <div class="flex justify-center mb-8 border-b">
+                    <button class="tab active py-2 px-6 font-semibold border-b-2" onclick="openTab(event, 'Education')">Education</button>
+                    <button class="tab py-2 px-6 font-semibold border-b-2 border-transparent" onclick="openTab(event, 'Experience')">Experience</button>
+                    <button class="tab py-2 px-6 font-semibold border-b-2 border-transparent" onclick="openTab(event, 'Awards')">Awards</button>
+                </div>
+                <div id="Education" class="tab-content">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-2xl">INDRASHIL UNIVERSITY</h3>
+                        <p class="text-gray-600 mb-2">Vavol, Gujarat | 2022-2026 (Expected Graduation)</p>
+                        <p class="text-lg font-semibold">Bachelor in Computer Science</p>
+                        <p class="mt-4 text-gray-700"><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Web Technologies, Object-Oriented Programming, Database Management Systems.</p>
+                    </div>
+                </div>
+                <div id="Experience" class="tab-content" style="display:none">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="font-bold text-2xl">TECHNOLOGY JOB SIMULATION PARTICIPANT</h3>
+                        <p class="text-gray-600 mb-2">DELOITTE AUSTRALIA (VIA FORAGE) | JUNE 2025</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Wrote a comprehensive proposal for creating a machine health dashboard, detailing project scope, 280 man-hour estimates, and timeline.</li>
+                            <li>Gained practical experience in data analysis, software development, and formal technical writing in a simulated consulting environment.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="Awards" class="tab-content" style="display:none">
+                    <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                        <h3 class="font-semibold text-lg">No awards to show at the moment.</h3>
+                        <p class="text-gray-600">Focused on building a strong project portfolio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 bg-gray-800 text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-4xl font-bold mb-4">Let's Connect</h2>
+                <p class="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">I'm currently seeking new opportunities and would love to hear from you. Feel free to reach out via email or connect with me on social media.</p>
+                <div class="flex justify-center items-center gap-6 flex-wrap">
+                     <a href="mailto:rishavendrasharma9353@gmail.com" class="bg-white text-gray-800 py-3 px-6 rounded-full font-bold hover:bg-gray-200 transition-colors flex items-center gap-2">
+                        <span>&#9993;</span> rishavendrasharma9353@gmail.com
+                    </a>
+                     <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-4xl hover:text-blue-400 transition-colors" aria-label="LinkedIn Profile">&#128386;</a>
+                     <a href="https://github.com/yourprofile" target="_blank" class="text-4xl hover:text-blue-400 transition-colors" aria-label="GitHub Profile">&#128187;</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white py-6">
+        <div class="container mx-auto px-6 text-center text-gray-600">
+            &copy; 2025 Rishavendra Sharma. All Rights Reserved.
+        </div>
+    </footer>
+    
+    <div id="modal-backdrop" class="modal-backdrop" onclick="closeAllModals()"></div>
+
+    <!-- YouTube Replica Project Modal -->
+    <!-- Removed as per user request -->
+
+    <!-- Personal Portfolio Website Project Modal -->
+    <div id="portfolioProject-modal" class="modal-content bg-white w-11/12 md:max-w-3xl lg:max-w-4xl rounded-lg shadow-2xl p-8">
+        <button onclick="closeAllModals()" class="absolute top-4 right-4 text-2xl font-bold text-gray-500 hover:text-gray-800">&times;</button>
+        <h2 class="text-3xl font-bold mb-4">Personal Portfolio Website</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div>
+                <img src="https://placehold.co/600x400/4A90E2/FFFFFF?text=Portfolio+Screenshot" class="rounded-lg shadow-md mb-4" alt="Screenshot of this portfolio website project">
+                <div class="flex gap-4">
+                    <a href="#" class="btn-primary text-white font-semibold py-2 px-4 rounded-full w-full text-center">Live Demo</a>
+                    <a href="#" class="btn-outline-secondary font-semibold py-2 px-4 rounded-full w-full text-center">Source Code</a>
+                </div>
+            </div>
+            <div>
+                <p class="text-gray-600 mb-4">This very website is a project itself, showcasing my foundational and growing skills in web development. It's a single-page interactive application designed to present my resume, projects, and personal profile in a dynamic, user-friendly format. Building this site has been a hands-on learning experience in responsive design, information architecture, and creating an engaging user experience with HTML, CSS, and JavaScript.</p>
+                <h4 class="font-bold text-lg mb-2">Technologies Used:</h4>
+                <ul class="list-disc list-inside text-gray-600 mb-4">
+                    <li>HTML5 (for semantic structure)</li>
+                    <li>CSS3 (for custom styling and layout)</li>
+                    <li>Tailwind CSS (for responsive design and utility-first styling)</li>
+                    <li>JavaScript (for dynamic interactivity and SPA features)</li>
+                </ul>
+                <h4 class="font-bold text-lg mb-2">Key Features:</h4>
+                <ul class="list-disc list-inside text-gray-600 mb-4">
+                    <li>Fully responsive design adapting to various screen sizes.</li>
+                    <li>Smooth-scrolling navigation and interactive sections.</li>
+                    <li>Dynamic project modals for detailed views.</li>
+                    <li>Tabbed resume content for organized presentation.</li>
+                </ul>
+                <h4 class="font-bold text-lg mb-2">Challenges & Learning:</h4>
+                <p class="text-gray-600">A key challenge was structuring a single-page application for a seamless user experience, including managing application state and handling DOM events efficiently. This project significantly enhanced my understanding of modern front-end development workflows and the importance of clean, maintainable code.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

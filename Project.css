@@ -1,0 +1,63 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f9fa; /* Alabaster/Very Light Gray */
+            color: #343a40; /* Dark Gray */
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        .nav-link.active {
+            color: #4A90E2; /* Muted Steel Blue */
+            font-weight: 700;
+        }
+        .section-title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: #212529; /* Near Black */
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: #4A90E2;
+            border-color: #4A90E2;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .btn-primary:hover {
+            background-color: #357ABD;
+            transform: translateY(-2px);
+        }
+        .btn-outline-secondary {
+            color: #4A90E2;
+            border-color: #4A90E2;
+            transition: background-color 0.3s, color 0.3s, transform 0.2s;
+        }
+        .btn-outline-secondary:hover {
+            background-color: #4A90E2;
+            color: #ffffff;
+            transform: translateY(-2px);
+        }
+        .modal-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            z-index: 40;
+        }
+        .modal-content {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 50;
+            max-height: 90vh;
+            overflow-y: auto;
+            width: 90%; /* Responsive width */
+            max-width: 900px; /* Max width for larger screens */
+        }
+        .tab.active {
+            border-color: #4A90E2;
+            color: #4A90E2;
+            background-color: #eaf2fb;
+        }
