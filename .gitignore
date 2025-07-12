@@ -1,0 +1,12 @@
+# Node.js related (if you ever add build tools)
+node_modules/
+.env
+
+# Operating System generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+*.sublime-project
+*.iml
